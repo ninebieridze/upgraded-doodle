@@ -8,9 +8,48 @@ a{
     text-decoration: none;
     color: white;
 }
+
+ .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }  
+ .about{
+    display: flex;
+    gap: 20px;
+ }
 header{
     background-color: blue;
 }
 main{
     background-color: white;
+    width: 100%;
+    max-width: 1920px;
+}
+
+h1{
+    display: block;
+}
+
+h2{
+    display: block;
+}
+.services{
+    display: flex; 
+}
+
+.text{
+    display: flex; flex-direction: column;
+}
+ 
+.whitecube{
+    height: 70px;
+    width: 70px;
+    background-color:#F9F9F9;
+}
+
+.bluecube{
+    height: 70px;
+    width: 70px;
+    background-color:blue;
 }
