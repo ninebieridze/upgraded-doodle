@@ -4,6 +4,16 @@
 	box-sizing: border-box;
 }
 
+.puritan-regular {
+  font-family: "Puritan", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fullcontainer{
+    padding: 0 80px;
+    font-family: puritan;
+}
 a{
     text-decoration: none;
     color: white;
@@ -13,29 +23,39 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
  }  
  .about{
     display: flex;
     gap: 20px;
+    padding:12px;
+    align-items: center
  }
+ 
 header{
     background-color: blue;
+     padding:12px 24px;
 }
 main{
     background-color: white;
-    width: 100%;
+    margin: 0 auto;
     max-width: 1920px;
+    padding: 80px;
 }
 
 h1{
     display: block;
+    opacity: 1;
 }
 
 h2{
     display: block;
+    opacity: 1;
 }
 .services{
     display: flex; 
+     justify-content: space-around;
+     padding-top: 80px;
 }
 
 .text{
@@ -46,10 +66,24 @@ h2{
     height: 70px;
     width: 70px;
     background-color:#F9F9F9;
+    margin-bottom: 40px;
 }
 
 .bluecube{
     height: 70px;
     width: 70px;
     background-color:blue;
+    margin-bottom: 40px;
+}
+.contact{
+    background:white;
+    padding:12px 24px;
+}
+
+.contact a{
+    color:blue;
+}
+
+p{
+    padding-top: 20px;
 }
